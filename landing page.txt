@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Aziendale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Stile globale */
+        header {
+            background-color: #005f99;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 0;
+            padding: 15px;
+            text-align: center;
+            background-color: #003f66;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #003f66;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .services, .testimonials {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .service, .testimonial {
+            background-color: #e6f7ff;
+            border: 1px solid #005f99;
+            padding: 20px;
+            width: 30%;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #005f99;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #003f66;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>La Tua Azienda</h1>
+        <p>Innovazione e soluzioni su misura per il tuo business</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Chi siamo</a>
+        <a href="#services">Servizi</a>
+        <a href="#testimonials">Testimonianze</a>
+        <a href="#contact">Contatti</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Benvenuti nella nostra azienda</h2>
+        <p>Forniamo soluzioni innovative e personalizzate per aiutare la tua impresa a crescere e prosperare nel mercato competitivo di oggi.</p>
+        <img class="image" src="https://via.placeholder.com/1000x400?text=Immagine+Home" alt="Immagine Home">
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Chi siamo</h2>
+        <p>Siamo un'azienda leader nel settore, impegnata a fornire soluzioni creative e tecnologiche che migliorano le prestazioni aziendali dei nostri clienti. La nostra missione è costruire un futuro migliore per i nostri clienti attraverso innovazione e dedizione.</p>
+        <img class="image" src="https://via.placeholder.com/800x400?text=Immagine+Chi+Siamo" alt="Immagine Chi Siamo">
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Servizi</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Consulenza</h3>
+                <p>Offriamo consulenze strategiche per aiutare la tua azienda a raggiungere i suoi obiettivi.</p>
+            </div>
+            <div class="service">
+                <h3>Sviluppo software</h3>
+                <p>Progettiamo e sviluppiamo software personalizzato per le esigenze della tua azienda.</p>
+            </div>
+            <div class="service">
+                <h3>Supporto IT</h3>
+                <p>Forniamo supporto tecnico e soluzioni IT per mantenere i tuoi sistemi sempre operativi.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>Testimonianze</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"Un team professionale e sempre disponibile. Grazie a loro, la nostra azienda è cresciuta notevolmente."</p>
+                <p><strong>- Mario Rossi</strong></p>
+            </div>
+            <div class="testimonial">
+                <p>"Il loro supporto tecnico è stato fondamentale per mantenere l'efficienza della nostra infrastruttura IT."</p>
+                <p><strong>- Laura Bianchi</strong></p>
+            </div>
+            <div class="testimonial">
+                <p>"Hanno creato per noi una piattaforma personalizzata che ha ottimizzato i nostri processi interni."</p>
+                <p><strong>- Luca Verdi</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contatti</h2>
+        <p>Per maggiori informazioni o per richiedere una consulenza, compila il modulo qui sotto o contattaci direttamente ai nostri recapiti.</p>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" rows="5" placeholder="Messaggio" required></textarea>
+            <button type="submit">Invia</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 La Tua Azienda. Tutti i diritti riservati.</p>
+    </footer>
+
+</body>
+</html>
